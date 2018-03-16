@@ -12,5 +12,6 @@ $(".song-select").click(function() {
     if (this.getAttribute("value") === "paul-anka") {
         $("#np").html("Put Your Head on My Shoulder")
     }
+    document.getElementById("song").play();
     console.log('playing ' + this.getAttribute("value"));
 })
